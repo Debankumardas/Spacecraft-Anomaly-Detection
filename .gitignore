@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# NASA datasets: ignore contents, retain folder placeholders
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Model artifacts
+models/*.pt
+models/*.pth
+models/*.ckpt
+models/*.onnx
+models/*.pkl
+models/*.joblib
+
+# Generated reports: retain folder placeholders
+reports/figures/*
+!reports/figures/.gitkeep
+
+reports/results/*
+!reports/results/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db

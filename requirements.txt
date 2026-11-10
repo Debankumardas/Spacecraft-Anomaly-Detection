@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+plotly
+torch
+streamlit
+PyYAML
+jupyter
+ipykernel
+pytest
